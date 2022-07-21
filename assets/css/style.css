@@ -1,0 +1,320 @@
+/* Theme name : Trendz*/
+
+
+/* Author : Brijesh Kumar Pandey developed more than 2500 websites and 100 of web applications */
+
+
+/* Vesion :upto 5.1.1 */
+
+
+/* Realease date : 27/10/2020 */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    background: -webkit-linear-gradient(left, black, lightgray);
+    background: -IE-linear-gradient(left, black, lightgray);
+    background: linear-gradient(right, black, lightgray);
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background: black;
+    margin-top: 2.5%;
+    z-index: 5;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 24px 8px;
+    font-weight: 700;
+}
+
+.navbar a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-menu a {
+    color: black !important;
+}
+
+#logo img {
+    width: 100%;
+    height: 75px;
+    margin-left: 13%;
+    margin-top: -14%;
+}
+
+
+/* 
+#myNavbar ul li {
+    display: block;
+    position: relative;
+} */
+
+.header-link li {
+    display: inline-block;
+    font-size: 17px;
+    padding: 13px 20px;
+}
+
+.header-link a {
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.slider {
+    width: 100%;
+    height: 550px;
+    margin-top: 7.5%;
+}
+
+.sidebar-link-menu li {
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+
+.sidebar-link-menu li a {
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+#slide img {
+    width: 100%;
+    height: 550px;
+}
+
+.sidebar-link li {
+    text-decoration: none;
+    text-decoration: none !important;
+    list-style: none;
+    list-style-type: none !important;
+}
+
+.sidebar-link li a {
+    text-decoration: none !important;
+    list-style: none;
+    list-style-type: none !important;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 8px 15px;
+    color: black;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+}
+
+#advertisement img {
+    margin-top: -2% !important;
+}
+
+#hdfc_offers img {
+    width: 100%;
+    height: 120px;
+}
+
+#popular {
+    padding: 20px;
+    height: 200px;
+}
+
+#popular h1 {
+    font-weight: bolder;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#box {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    border-radius: 25px;
+    border: none;
+    padding: 13px;
+}
+
+#box-newarrival {
+    width: 40%;
+    height: 400px;
+    border: none;
+    transition: 1s ease all;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+#box-newarrival img {
+    width: 100% !important;
+    height: 300px;
+}
+
+#box-newarrival:hover {
+    width: 40%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+
+.newsletter {
+    width: 100%;
+    height: 180px;
+    background-color: black;
+}
+
+.footer {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+
+#subfooter {
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+}
+
+#subfooter {
+    color: white;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+#subfooter-nav ul li {
+    font-size: 17px;
+    padding: 2px 5px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#subfooter-nav a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+#modal-signup {
+    transition: 1s ease all;
+    border: none;
+}
+
+#modal-signup:hover {
+    transform: rotate(360deg);
+}
+
+#contact-us {
+    margin-top: 10%;
+}
+
+#contact-us-sidebar ul li {
+    padding: 0px 2px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#contact-us-sidebar a {
+    color: black;
+}
+
+@media only screen and (min-width:320px) and (max-width:747px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .header {
+        width: 100%;
+        height: auto;
+        background-color: black !important;
+    }
+    .navbar {
+        width: 100%;
+        height: auto;
+        background: black;
+        margin-top: 18%;
+    }
+    .navbar ul li {
+        display: block;
+        padding: 24px 15px;
+        font-weight: 700;
+    }
+    #logo img {
+        width: 40%;
+        height: 70px;
+        margin-left: 0%;
+        margin-top: -4%;
+    }
+    .navbar-toggle {
+        margin-top: -15%;
+    }
+    .slider {
+        width: 100%;
+        height: 250px;
+        margin-top: 16.5%;
+    }
+    #slide img {
+        width: 100%;
+        height: 250px;
+        margin-top: 16.5%;
+    }
+    .content {
+        width: 100%;
+        height: auto;
+    }
+    #advertisement img {
+        margin-top: 0% !important;
+        width: 100%;
+        height: 280px !important;
+    }
+    #hdfc_offers img {
+        width: 100% !important;
+        height: 100px !important;
+    }
+    #popular {
+        width: 100%;
+        height: 550px;
+    }
+    .newsletter {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        padding: 10px;
+    }
+    .footer {
+        width: 100%;
+        height: 450px;
+        background-color: white;
+    }
+    #subfooter {
+        width: 100%;
+        height: 70px;
+        background-color: gray;
+        margin-top: 45%;
+    }
+    #subfooter h5 {
+        color: white;
+        letter-spacing: 1px;
+        padding: 20px;
+    }
+    #subfooter-nav ul li {
+        font-size: 10px !important;
+        padding: -15px -10px;
+        list-style-type: none;
+        text-decoration: none;
+    }
+}
